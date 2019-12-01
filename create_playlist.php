@@ -21,6 +21,12 @@ if(session_start()){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 </head>
+<style>
+    body{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    }
+</style>
 <body>
 <form action="create_playlist.php" method="POST" enctype="multipart/form-data">
 <div class="container">

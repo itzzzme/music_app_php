@@ -35,7 +35,10 @@ if(mysqli_connect_error())
                               $sql = "INSERT INTO register(username,email,password) values ('  $username','$email','$password');";
                                $r = mysqli_query($con, $sql);
                            if ($r == true) {
-                                header("location:login.php");
+
+                                echo "<script>alert ('your registered');
+                                        window.location.href='login.php';
+                                    </script>";
                             } else {
                                  header("location:signup.php");
                                  }

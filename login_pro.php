@@ -26,17 +26,17 @@ if(isset($_POST['submit']))
                      $uid=$row['user_id'];
                      $_SESSION['username']=$user;
                      $_SESSION['userid']=$uid;
-                         header('Location:index.php');
+                         header('Location:songs.php');
                 }
                 else{
-                    echo"<script>alert('worng password');
+                    echo"<script>alert('Incorrect email or password');
                window.location.href='login.php';
                </script>";
                 }
             }
-        }else{
-            echo"<script>alert('empty fields');
-               window.location.href='login.php';
+            }else{
+            echo"<script>alert('User not exist!!!Please sign up');
+               window.location.href='signup.php';
                </script>";
 
         }
