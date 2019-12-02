@@ -29,7 +29,7 @@ session_start();
             <div class="single-blog">
                 <p class="blog-meta">By admin<span>September 24,2018</span></p>
                 <img src="img/Sa.jpg" class="img">
-                <h2 >Album Name</h2>
+                <h2 >creator</h2>
                 <p class="blog-text">album discription</p>
                 <span ><i class="fa fa-heart-o" aria-hidden="true"></i><strong>Favorite</strong></span>
             </div>
@@ -40,7 +40,7 @@ session_start();
             <div class="single-blog">
                 <p class="blog-meta">By admin<span>September 24,2018</span></p>
                 <img src="img/Sa.jpg" class="img">
-                <h2 >Album name</h2>
+                <h2 >new</h2>
                 <p class="blog-text">album discription</p>
                 <span ><i class="fa fa-heart-o" aria-hidden="true"></i><button class="fav-btn">Favorite</button> </span>
             </div>

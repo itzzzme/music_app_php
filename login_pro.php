@@ -24,6 +24,8 @@ if(isset($_POST['submit']))
                     session_start();
                      $user=$row['username'];
                      $uid=$row['user_id'];
+                     $passo=$row['password'];
+                     $_SESSION['pass']=$passo;
                      $_SESSION['username']=$user;
                      $_SESSION['userid']=$uid;
                          header('Location:songs.php');
